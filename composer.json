@@ -1,38 +1,33 @@
 {
-    "name": "ollily/ezkoding",
-    "description": "Simplify the usage of - Testing with PHPUnit - Reflection with PHP - Developer shortkeys for composer",
+    "name": "#orga#/#repo#",
+    "description": "#repo_description#",
     "type": "library",
     "keywords": [
-        "php",
-        "phpunit",
-        "testcase",
-        "test-case",
-        "reflection"
+        "#label#",
+        "#label#"
     ],
-    "homepage": "https://github.com/ollily/ezkoding",
+    "homepage": "https://github.com/#orga#/#repo#",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "ollily",
-            "email": "426229+ollily@users.noreply.github.com",
-            "homepage": "https://github.com/ollily",
-            "role": "Project Owner, Developer"
+            "name": "#author#",
+            "email": "#author_email#",
+            "homepage": "#author_homepage#",
+            "role": "#author_role#"
         }
     ],
     "support": {
-        "issues": "https://github.com/ollily/ezkoding/issues"
+        "issues": "https://github.com/#orga#/#repo#/issues"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": ">=8.4.1",
         "php-ds/php-ds": "^1.0",
-        "psr/log": "^1.0||^2.0||^3.0",
-        "composer/composer": "^2.0"
+        "oglow/ezkoding": "^8.4",
+        "oglow/ezlogging": "^8.4"
     },
     "provide": {
-        "psr/log-implementation": "^1.0||^2.0||^3.0",
-        "monolog/monolog": "^2.10"
     },
     "suggest": {
     },
@@ -44,8 +39,7 @@
         "psalm/plugin-phpunit": "^0.19",
         "friendsofphp/php-cs-fixer": "^3.0",
         "squizlabs/php_codesniffer": "^4.0",
-        "phpmd/phpmd": "^2.0",
-        "rogervila/php-sonarqube-scanner": "^1.0"
+        "phpmd/phpmd": "^2.0"
     },
     "config": {
         "platform": {
@@ -60,16 +54,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Monolog\\": "src/Monolog",
-            "ollily\\Tools\\": "src/Tools",
-            "PHPUnit\\": "src/PHPUnit"
+            "\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Monolog\\": "tests/Monolog",
-            "ollily\\Tools\\": "tests/Tools",
-            "PHPUnit\\": "tests/PHPUnit"
+            "\\": "tests"
         }
     },
     "scripts": {
