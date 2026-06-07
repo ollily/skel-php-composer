@@ -386,7 +386,7 @@ image:{cm_shlds_tool_phpmd_url}[title="PHP Mess Detector Ruleset"]
 
 == Description
 
-#Description#
+#description#
 
 == Configuration
 
