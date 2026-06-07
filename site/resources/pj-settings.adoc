@@ -30,7 +30,8 @@
 // Version or "latest version"
 :pj_version: [latest version]
 // Creation year
-:pj_year: 2025
+// Creation year
+:pj_year: #year#
 // Github description
 :pj_description: #repo_description#
 
