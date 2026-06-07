@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor configVersion="3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpdoc.org"
+               xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/phpDocumentor/phpDocumentor/master/data/xsd/phpdoc.xsd">
+    <title>#repo_description#</title>
+    <paths>
+        <output>target/docs</output>
+        <cache>target/build/cache</cache>
+    </paths>
+    <version number="latest">
+        <folder>latest</folder>
+        <api>
+            <source dsn=".">
+                <path>src</path>
+            </source>
+            <output>./target/docs/api</output>
+            <default-package-name>#package#</default-package-name>
+            <extensions>
+                <extension>php</extension>
+            </extensions>
+            <markers>
+                <marker>XYZ</marker>
+            </markers>
+        </api>
+        <!--<guide>-->
+            <!--<source dsn=".">-->
+                <!--<path>site</path>-->
+            <!--</source>-->
+            <!--<output>./target/docs/guide</output>-->
+        <!--</guide>-->
+    </version>
+    <setting name="guides.enabled" value="true"/>
+    <setting name="graphs.enabled" value="false"/>
+    <setting name="template.color" value="light-blue"/>
+</phpdocumentor>
