@@ -7,6 +7,7 @@
         "#label#"
     ],
     "homepage": "https://github.com/#orga#/#repo#",
+    "readme": "README.adoc",
     "license": "Apache-2.0",
     "authors": [
         {
