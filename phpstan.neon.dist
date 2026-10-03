@@ -19,26 +19,6 @@ parameters:
 
     ignoreErrors:
         # Too strict -> disabled
-        -
-            identifier: method.dynamicName
-            paths:
-                - tests/*/*TraitTest.php
-        -
-            identifier: method.unused
-            paths:
-                - tests/*/*DummyClazz.php
-        -
-            identifier: property.onlyWritten
-            paths:
-                - tests/*/*Clazz.php
-        -
-            identifier: staticMethod.alreadyNarrowedType
-            paths:
-                - tests/*/*Test.php
-        -
-            identifier: classConstant.unused
-            paths:
-                - tests/*/*DummyClazz.php
 
         # Custom
 
