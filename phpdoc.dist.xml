@@ -12,6 +12,9 @@
             <source dsn=".">
                 <path>src</path>
             </source>
+            <ignore hidden="true" symlinks="true">
+                <path>src/foo/**/*</path>
+            </ignore>
             <output>./target/docs/api</output>
             <default-package-name>#package#</default-package-name>
             <extensions>

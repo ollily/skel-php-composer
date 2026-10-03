@@ -28,7 +28,6 @@
 /target/ export-ignore
 /.idea/ export-ignore
 /nbproject/ export-ignore
-/.settings/ export-ignore
 /site/ export-ignore
 #
 # Files
@@ -39,7 +38,6 @@
 # Code Quality
 /*.dist export-ignore
 /*.dist.php export-ignore
-/*.dist.xml export-ignore
 /phpstan* export-ignore
 /phpunit.xml* export-ignore
 /.editorconfig export-ignore
