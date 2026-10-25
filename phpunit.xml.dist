@@ -3,12 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
     bootstrap="tests/bootstrap.php"
-    cacheDirectory=".phpunit.cache"
+    cacheDirectory="target/.phpunit.cache"
     colors="true"
-    executionOrder="depends,defects"
+    executionOrder="defects"
     beStrictAboutOutputDuringTests="false"
     displayDetailsOnTestsThatTriggerDeprecations="true"
     displayDetailsOnPhpunitDeprecations="true"
+    resolveDependencies="true"
 >
     <php>
         <ini name="display_errors" value="1"/>

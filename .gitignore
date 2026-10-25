@@ -182,6 +182,7 @@ vendor/
 .phpdoc/
 
 ### Custom
+.scannerwork/
 target/
 wpcs/*
 nbproject/private/
@@ -193,3 +194,4 @@ nbproject/private/
 phpstan.neon
 phpunit.xml
 psalm.xml
+composer.json.loc*

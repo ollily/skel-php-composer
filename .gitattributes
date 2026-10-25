@@ -8,6 +8,7 @@
 *.htm text eol=lf
 *.html text eol=lf
 *.js text eol=lf
+*.json text eol=lf
 *.css text eol=lf
 *.php text eol=lf
 *.xml  text eol=lf
@@ -28,7 +29,6 @@
 /target/ export-ignore
 /.idea/ export-ignore
 /nbproject/ export-ignore
-/.settings/ export-ignore
 /site/ export-ignore
 #
 # Files
@@ -39,7 +39,6 @@
 # Code Quality
 /*.dist export-ignore
 /*.dist.php export-ignore
-/*.dist.xml export-ignore
 /phpstan* export-ignore
 /phpunit.xml* export-ignore
 /.editorconfig export-ignore

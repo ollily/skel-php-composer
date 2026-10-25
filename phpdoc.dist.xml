@@ -3,7 +3,7 @@
                xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/phpDocumentor/phpDocumentor/master/data/xsd/phpdoc.xsd">
     <title>#repo_description#</title>
     <paths>
-        <output>target/docs</output>
+        <output>site/docs</output>
         <cache>target/build/cache</cache>
     </paths>
     <version number="latest">
@@ -12,7 +12,7 @@
             <source dsn=".">
                 <path>src</path>
             </source>
-            <output>./target/docs/api</output>
+            <output>./site/docs/api</output>
             <default-package-name>#package#</default-package-name>
             <extensions>
                 <extension>php</extension>
@@ -25,7 +25,7 @@
             <!--<source dsn=".">-->
                 <!--<path>site</path>-->
             <!--</source>-->
-            <!--<output>./target/docs/guide</output>-->
+            <!--<output>./site/docs/guide</output>-->
         <!--</guide>-->
     </version>
     <setting name="guides.enabled" value="true"/>
