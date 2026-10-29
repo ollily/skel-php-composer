@@ -184,6 +184,9 @@ vendor/
 ### Custom
 .scannerwork/
 target/
+conf/
+jre/
+lib/
 wpcs/*
 nbproject/private/
 
